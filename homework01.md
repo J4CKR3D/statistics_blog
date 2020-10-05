@@ -7,8 +7,8 @@
 
 So we can define statistical population as a set of similiar existing or hypotetical object/events which the study of the related data seems interesting for question/experiments
 
-In descriptive statistics, the population is intented to be a sample of a larger group (population) on wich features will be noted and organized and used for te data analysis.  
-In inferential statistics, the population is also a sample of a larger population on wich data is harvested and used for the inference of a larger population.  
+In **descriptive statistics**, the population is intented to be a sample of a larger group (population) on wich features will be noted and organized and used for te data analysis.  
+In **inferential statistics**, the population is also a sample of a larger population on wich data is harvested and used for the inference of a larger population.  
 
 The main differneces in the two population samples is that:  
   - Descriptive Statistics analyze data and describes statistics of the sample ONLY,  
