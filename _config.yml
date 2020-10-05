@@ -1,6 +1,6 @@
 plugins:
   - jekill-remote-theme
-remote_theme: poole/hyde
+remote_theme: Wiredcraft/carte
 #theme: jekyll-theme-slate
 title : Statistics Blog
 description: Matteo Pernarella 1606685
