@@ -1,4 +1,5 @@
-theme: jekyll-theme-slate
+remote_theme: thelehhman/texture
+[//]: # theme: jekyll-theme-slate
 title : Statistics Blog
 description: Matteo Pernarella 1606685
 
