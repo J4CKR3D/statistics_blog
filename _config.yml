@@ -1,6 +1,6 @@
 plugins:
   - jekyll-remote-theme
-remote_theme: willianjusten/will-jekyll-template
+remote_theme: rohanchandra/type-theme 
 #theme: jekyll-theme-slate
 title : Statistics Blog
 description: Matteo Pernarella 1606685
