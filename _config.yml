@@ -1,4 +1,7 @@
-theme: jekyll-theme-slate
+plugins:
+  - jekill-remote-themes
+remote_theme: poole/hyde
+#theme: jekyll-theme-slate
 title : Statistics Blog
 description: Matteo Pernarella 1606685
 
