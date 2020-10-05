@@ -12,7 +12,7 @@ In **descriptive statistics**, the population is intented to be a sample of a la
 In **inferential statistics**, the population is also a sample of a larger population on wich data is harvested and used for the inference of a larger population.  
 
 The main differneces in the two population samples is that:  
-  - Descriptive Statistics analyze data and describes statistics of the sample ONLY,  
+  - Descriptive Statistics analyzes data and describes statistics of the sample ONLY,  
   - On the other hand Inferential statistics aims to analyze data of a sample to make (as the name says) inference on the larger population.  
   
   2_R.  
