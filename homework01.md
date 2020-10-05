@@ -1,5 +1,4 @@
-### Homework 01
-#### 08/10
+### 08/10 - Homework 01
 
 ### question 1
 Bla bla bla
