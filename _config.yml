@@ -1,6 +1,6 @@
 plugins:
   - jekyll-remote-theme
-remote_theme: pixeldroid/programming-pages 
+remote_theme: pages-themes/dinky
 #theme: jekyll-theme-slate
 title : Statistics Blog
 description: Matteo Pernarella 1606685
