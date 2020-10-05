@@ -1,5 +1,5 @@
 plugins:
-  - jekill-remote-themes
+  - jekill-remote-theme
 remote_theme: poole/hyde
 #theme: jekyll-theme-slate
 title : Statistics Blog
