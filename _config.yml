@@ -1,7 +1,4 @@
-plugins:
-  - jekyll-remote-theme
-remote_theme: poole/lanyon
-#theme: jekyll-theme-slate
+theme: jekyll-theme-slate
 title : Statistics Blog
 description: Matteo Pernarella 1606685
 
