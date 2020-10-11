@@ -19,9 +19,12 @@ The main differneces in the two population samples is that:
   3_R.  
 
 ### Applications / Practice (A)
-  1_A.  
+  1_A.
+    - [C# zip file](https://drive.google.com/file/d/1R2cDsJLh_hcP5wOe_d0STyCQVivkWqmY/view?usp=sharing)
+    - [VB.NET zip file](https://drive.google.com/file/d/1NY1Byu0iRMpn7ZTiBgfmChd4ixgGHpZA/view?usp=sharing)  
+    
   2_A.  
-  3_A.  
+  3_A. I've implemented the Drag&Drop function in both the programs at point 1_A 
 
 ### Researches about applications (RA)
   1_RA.  
