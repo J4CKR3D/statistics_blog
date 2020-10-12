@@ -22,9 +22,9 @@ The main differneces in the two population samples is that:
   
 #### **3_R.**  
    - A **univariate dataset** consists in a single variable type dataset, so we will have a single column table containing just the variable we want to examine; For example, if we want to create a univariate dataset containing the weights of 10 apples we use the weight attribute of the apple as a variable and create the 1 column-10 rows dataset containing the data.
- - The number of occurence of the same data for a specific attribute in a variable is known as **frequency ditribution**; for example we have this weights array (in grams):  
+ - The number of occurence of the same data in a variable is known as **frequency ditribution**; for example, we have this weights array (in grams):  
  ```w={22.0, 32.2, 44.3, 32.2, 21.9, 32.3, 22.0}```  
- we know that the distribution of 32.2 is 3.  
+ we know that the distribution of 32.2 is 3 and the distribution of 22.0 is 2.  
  
   - Actually yes, if we have the distribution of every possible value in the dataset for a certain variable we could recreate the dataset, let's take the previous example about apple weights, if we know that:  
   ```22.0 = 2,  32.2 = 3, 44.2 = 1, 21.9 = 1 ```  
