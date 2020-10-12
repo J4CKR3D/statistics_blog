@@ -36,14 +36,14 @@ The main differneces in the two population samples is that:
  - The difference in the amount of data between the two is directly correlated to the variety of data, the dataset is a more organized version of the data, frequency distribution is just a concise version of the same data, if we have a distribution of 1 for each value we will have the exact same dataset just in a different notation, on the other hand, if we have high distribution of values we will end up with a briefer version of the dataset.
 
 ### Applications / Practice (A)
-  1_A.
+#### **1_A.**
   - [C# zip file](https://drive.google.com/file/d/1R2cDsJLh_hcP5wOe_d0STyCQVivkWqmY/view?usp=sharing)  
   - [VB.NET zip file](https://drive.google.com/file/d/1NY1Byu0iRMpn7ZTiBgfmChd4ixgGHpZA/view?usp=sharing)  
     
-  2_A.  
-  3_A.
+#### **2_A.**  
+#### **3_A.**
   - I've implemented the Drag&Drop function in both the programs at point 1_A 
 
 ### Researches about applications (RA)
-  1_RA.  
-  2_RA.  
+#### **1_RA.**  
+#### **2_RA.**  
