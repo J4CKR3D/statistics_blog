@@ -39,9 +39,77 @@ The main differneces in the two population is that:
   - [VB.NET zip file](https://drive.google.com/file/d/1NY1Byu0iRMpn7ZTiBgfmChd4ixgGHpZA/view?usp=sharing)  
     
 #### **2_A.**  
+> A **Value Type** stores its contents in memory allocated on the stack. When you created a Value Type, a single space in memory is allocated to store the value and that variable directly holds a value. If you assign it to another variable, the value is copied directly and both variables work independently. Predefined datatypes, structures, enums are also value types, and work in the same way. Value types can be created at compile time and Stored in stack memory, because of this, Garbage collector can't access the stack.  
+ 
+ ```
+ #include <stdio.h>
+
+int main(void){
+    
+    int a, b;
+    
+    // Here we are assigning the VALUE of b to a
+    a = b;
+    
+    printf("a: %d, b:%d", a, b);
+    
+    b = 10;
+
+    printf("a: %d, b:%d", a, b);
+    
+    return 0;
+}
+```  
+The output of the code above is:
+``` 
+"a: 0; b: 0"
+"a: 0; b: 10"
+```  
+In this case we are passing to a the **value** of b, so even if the value of b will be changed, the value of a will remain untouched since the last assignment.
+
+> Reference Types are used by a reference which holds a reference (address) to the object but not the object itself. Because reference types represent the address of the variable rather than the data itself, assigning a reference variable to another doesn't copy the data. Instead it creates a second copy of the reference, which refers to the same location of the heap as the original value. Reference Type variables are stored in a different area of memory called the heap. This means that when a reference type variable is no longer used, it can be marked for garbage collection. Examples of reference types are Classes, Objects, Arrays, Indexers, Interfaces, **Pointers** etc.  
+
+```
+ #include <stdio.h>
+
+int main(void){
+    
+    int b = 0;
+    
+    // Here we are assigning the memory address of b to te pointer p
+    // and this is actually a 'passing by reference' scenario
+    int *p = &b;
+    
+    printf("b:%d, p:%d", b, *p);
+    
+    b = 10;
+
+    printf("b:%d, p:%d", b, *p);
+    
+    return 0;
+}
+```  
+The output of the code above is:
+``` 
+"b: 0; p: 0"
+"b: 10; p: 10" 
+```  
+so we can easily see that even without touching directly the pointer's value (but the varaible b instead), the pointer's value has been changed.  
+Definitions source: [net-informations.com](http://net-informations.com/faq/general/valuetype-referencetype.htm)  
+
 #### **3_A.**
   - I've implemented the Drag&Drop function in both the programs at point 1_A 
 
 ### Researches about applications (RA)
-#### **1_RA.**  
+#### **1_RA.** 
+ - The **C#** program deals with events handlers using a separate (form.designer.cs) file from the function's file (form.cs), in which it defines form's components position and dimensions and, for each component, it creates an array of handlers each one with a related function (defined in the function's main file).
+ - The **VB.NET** program uses the same function's file instead, specifying in the signature, wich type of event that function will handle.
+In my opinion the best approach among the two is the C# one, it's more structured and well defined even if less intuitive; On the other hand, the VB approach is faster, more user friendly and can let you spot a mistake in the event handling more easily.  
+ 
 #### **2_RA.**  
+ - In **C#**, the Program.cs file is the main file executed when we run the application.
+The C# program uses form.designer.cs file, that (as said on the previous point) is file where the form's components are first initialized with the related positions and dimensions. Lastly (in this case) there is a Form.cs file, this is a Windows module class file where the functions are declared and defined.
+
+ - In **VB.NET** we can find the form.Designer.vb file too, which the primary purpose is the same as the C# one, to initialize all the form's components.
+ As said before, the events are declared and handled in the function's signature into the form.vb file. [starting point?]
+ 
