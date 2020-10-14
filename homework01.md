@@ -31,7 +31,8 @@ The main differneces in the two population is that:
 
   - Actually no, wen we use the dataset to create a distribution frequency, we lose part of the information.
 
- - The difference between the two amounts of data is actually considerable, in the dataset we have a **complete** correlation betwen attribute values and statistical units, on the other hand with the distribution we have a concise and brief version of the same data but with a loss in the correlation between statistical units and related values (as said in the previous point). We gain knowledge by losing information.
+ - The difference between the two amounts of data is actually considerable, in the dataset we have a **complete** correlation betwen attribute values and statistical units, on the other hand with the distribution we have a concise and brief version of the same data but with a loss in the correlation between statistical units and related values (as said in the previous point). We gain knowledge by losing information.  
+
 ---
 
 ### Applications / Practice (A)
@@ -132,7 +133,8 @@ Definitions sources:
  - Value type [Microsoft docs](https://docs.microsoft.com/it-it/dotnet/csharp/language-reference/builtin-types/value-types)
  - Reference type [Microsoft docs](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types)
 #### **3_A.**
-  - I've implemented the Drag&Drop function in both the programs at point 1_A 
+  - I've implemented the Drag&Drop function in both the programs at point 1_A  
+
 ---
 
 ### Researches about applications (RA)
