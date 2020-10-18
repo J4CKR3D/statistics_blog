@@ -21,7 +21,7 @@
 The levels of classification has been developed by Stanley Smith Stevens those levels are 4 in total: **nominal**, **ordinal**, **interval**, and **ratio**.
 This is an overview of the differencies between the various levels:  
 | Incremental progress | Measure property |Mathematical operators | Advanced operations | Central tendency | 
-|:-:|:-:|:-:|:-:|:-:|
+|:---:|:---:|:---:|:---:|:---:|
 |Nominal|Classification, membership|=, ≠|Grouping|Mode|
 |Ordinal|Comparison, level|>, <|Sorting|Median|
 |Interval|Difference, affinity|+, −|Yardstick|Mean, Deviation|
