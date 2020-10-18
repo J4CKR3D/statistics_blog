@@ -42,6 +42,20 @@ As the 2 main groups says, we can say that the levels in the **Qualitative** gro
  - *Sources*: [Wikipedia]( https://en.wikipedia.org/wiki/Level_of_measurement)  
 
 ### 5_R.  
+With the terms **Data repository** in a real world or entrprise environment, we could refer to various types of repository. The most common referral to an enterprise environment is strictly related to a giant data storage (central or distributed), where all the data and metadata of the company is handled and managed through *relational* (or *non relational* but those are less used) *databases*.
+
+ - **Operational systems**: refer to a system that is used to process the day-to-day transactions of an organization that aims to work efficiently and in a way to preserve the integrity of the transactional data.
+ - **Transactional systems (OLTP)**: information systems typically facilitate and manage transaction-oriented applications. With the term *transaction* we might mean both an atomic change of state in the realm of databases transactions or an exchange of economic entities in the realm of business and finance.
+ OLTP typically can process all types of queries, contrairly to other systems like **OLAP**
+ - **Data warehouse**: Is a system used for reporting and data analysis, and is considered a core component of business intelligence. are central repositories of integrated data from one or more disparate sources. The data may pass through an operational data store and may require data cleansing for additional operations to ensure data quality before it is used in the DW for reporting but it's generally uploaded by the operational systems.
+ - **Data mart**: The data mart is a subset of the data warehouse and is usually oriented to a specific business line or team. Whereas data warehouses have an enterprise-wide depth, the information in data marts pertains to a single department. So we can think to a *Data mart* as a building block of a *Data warehouse*.
+ - **Online analytical processing (OLAP)**: is an approach to answer multi-dimensional analytical queries swiftly in computing. Typical applications of OLAP include business reporting for sales, marketing, management reporting, and so on. OLAP consists of three basic analytical operations:  
+     - consolidation (roll-up), 
+     - drill-down,
+     - slicing and dicing.
+
+    OLAP is generally characterized by much more complex queries, in a smaller volume contrairly to *OLTP*.
+ - **Online event processing (OLEP)**: is based on distributed event logs to offer strong consistency in large-scale heterogeneous systems, it allows for more flexible distribution patterns and higher scalability, but with increased latency and without guaranteed upper bound to the processing time.
 
 ### 6_R.  
 
