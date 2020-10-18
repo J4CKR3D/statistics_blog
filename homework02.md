@@ -6,7 +6,7 @@
  - [5_R.](#5_r)
  - [6_R.](#6_r)
  
-[Applications \/ Practice (A)](#applications--practice-a)
+[Applications / Practice (A)](#applications--practice-a)
  - [4_A.](#4_a)
  - [5_A.](#5_a)
  - [6_A.](#6_a)
