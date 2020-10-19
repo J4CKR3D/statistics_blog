@@ -1,3 +1,3 @@
 
-## 08/10 - [Homework 01](https://j4ckr3d.github.io/statistics_blog/homework01)  
-## 15/10 - [Homework 02](https://j4ckr3d.github.io/statistics_blog/homework02)
+## 15/10 - [Homework 02](/homework02.md)
+## 08/10 - [Homework 01](/homework01.md)  
