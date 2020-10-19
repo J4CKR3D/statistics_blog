@@ -1,4 +1,4 @@
-#### [Home](/index)
+#### [Home](/index.md)
 
 ## 15/10 - Homework 02
 
