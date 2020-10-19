@@ -22,10 +22,10 @@ The levels of classification has been developed by Stanley Smith Stevens those l
 This is an overview of the differencies between the various levels:  
 | Incremental progress | Measure property |Mathematical operators | Advanced operations | Central tendency |  
 | :---: | :---: | :---: | :---: | :---: |  
-|Nominal|Classification, membership|=, ≠|Grouping|Mode|  
-|Ordinal|Comparison, level|>, <|Sorting|Median|  
-|Interval|Difference, affinity|+, −|Yardstick|Mean, Deviation|  
-|Ratio|Magnitude, amount|×, /|Ratio|Geometric mean, Coefficient of variation|    
+| Nominal | Classification, membership | =, ≠ | Grouping | Mode |  
+| Ordinal | Comparison, level | >, <|Sorting | Median |  
+| Interval | Difference, affinity | +, − | Yardstick | Mean, Deviation |  
+| Ratio | Magnitude, amount | ×, / | Ratio | Geometric mean, Coefficient of variation |    
 
 We could group those 4 levels in 2 main categories, **Qualitative** and **Quantitative** measurements:
  - **Qualitative**
