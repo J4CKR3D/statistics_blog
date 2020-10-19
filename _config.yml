@@ -1,7 +1,8 @@
 theme: jekyll-theme-slate
 title : Statistics Blog
 description: Matteo Pernarella 1606685
-nav:
-    - {title: Home, description: Homepage, url: '/index'}
-
-
+navbar:
+  type: default
+  left:
+    - text: "Home"
+      href: /index
