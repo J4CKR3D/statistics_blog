@@ -1,6 +1,7 @@
 theme: jekyll-theme-slate
 title : Statistics Blog
 description: Matteo Pernarella 1606685
+github.owner_name: "Matteo Pernarella"
 navbar:
   type: default
   left:
