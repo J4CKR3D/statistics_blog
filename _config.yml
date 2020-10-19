@@ -1,6 +1,7 @@
 theme: jekyll-theme-slate
 title : Statistics Blog
 description: Matteo Pernarella 1606685
-home: https://j4ckr3d.github.io/statistics_blog/
+nav:
+    - {title: Home, description: Homepage, url: '/index'}
 
 
