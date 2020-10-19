@@ -1,9 +1,6 @@
 theme: jekyll-theme-slate
 title : Statistics Blog
 description: Matteo Pernarella 1606685
-markdown: kramdown
-kramdown:
-  input: GFM
 nav:
     - {title: Home, description: Homepage, url: '/index'}
 
