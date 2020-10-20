@@ -83,7 +83,7 @@ $$
 $$
 
 As known as *Knuth Formula* or *Running Mean*.  
-The Knuth formula is preferable to the naive one becaus it allows us to occupy less memory and it eliminate the floating point related errors, the possibility of the data elimination from the batch, and is overall faster to compute.
+The Knuth formula is preferable to the naive one because allows to less memory occupation and eliminates the floating point related errors, the possibility of the data elimination from the batch and is overall faster to compute.
 
 ---
 
