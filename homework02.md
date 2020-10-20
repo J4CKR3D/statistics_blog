@@ -62,6 +62,8 @@ With the terms **Data repository** in a real world or entrprise environment, we 
     OLAP is generally characterized by much more complex queries, in a smaller volume contrairly to *OLTP*.
  - **Online event processing (OLEP)**: is based on distributed event logs to offer strong consistency in large-scale heterogeneous systems, it allows for more flexible distribution patterns and higher scalability, but with increased latency and without guaranteed upper bound to the processing time.
 
+![Map](/images/hw01/data.png)
+
 ### 6_R.  
 
 The *Online* version of the arithmetic mean, is based on the concept of data stream; A *data stream* is a continuous stream of data which is manipulated and processed to obtain a certain result and the items in the data stream aren't stored in memory, the only thing that will be stored is the computation result and it will be continuously updated until the end of the data stream. We can define the well known concept of arithmetic mean as:  
