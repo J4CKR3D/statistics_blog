@@ -75,6 +75,7 @@ the online version of it is slightly different, the main idea is that we already
 $$
 \frac{\overline{X}_{n-1}(n-1) + X_n}{n}
 $$
+
 A more concise way to describe the above formula is:
 
 $$
