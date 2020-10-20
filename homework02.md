@@ -1,3 +1,5 @@
+{% include lib/mathjax.html %}
+
 #### [Home](/index.md)
 
 ## 15/10 - Homework 02
