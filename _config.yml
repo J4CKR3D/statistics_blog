@@ -1,5 +1,5 @@
 theme: jekyll-theme-slate
-layout: default.html
+layout: default
 title : Statistics Blog
 description: Matteo Pernarella 1606685
 github:
