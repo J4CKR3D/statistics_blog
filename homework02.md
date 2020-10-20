@@ -1,4 +1,4 @@
-{% include lib/mathjax.html %}
+{% include /lib/mathjax.html %}
 
 #### [Home](/index.md)
 
