@@ -62,7 +62,7 @@ With the terms **Data repository** in a real world or entrprise environment, we 
     OLAP is generally characterized by much more complex queries, in a smaller volume contrairly to *OLTP*.
  - **Online event processing (OLEP)**: is based on distributed event logs to offer strong consistency in large-scale heterogeneous systems, it allows for more flexible distribution patterns and higher scalability, but with increased latency and without guaranteed upper bound to the processing time.
 
-![Map](/images/hw01/data.png)
+![Map](/images/hw02/data.png)
 
 ### 6_R.  
 
