@@ -63,7 +63,7 @@ With the terms **Data repository** in a real world or entrprise environment, we 
 
 ### 6_R.  
 
-$\sum_{i=1}^n X_i$
+$$\sum_{i=1}^n X_i$$
 
 ---
 
