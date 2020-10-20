@@ -79,7 +79,7 @@ $$
 A more concise way to describe the above formula is:
 
 $$
-\overline{X}_{n-1} + \frac{1}{n} (X_n - \overline{X}_{n-1}})
+\overline{X}_{n-1} + \frac{1}{n} (X_n - \overline{X}_{n-1})
 $$
 
 ---
