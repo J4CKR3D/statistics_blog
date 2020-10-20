@@ -64,8 +64,9 @@ With the terms **Data repository** in a real world or entrprise environment, we 
 
 ### 6_R.  
 
-The *Online* version of the arithmetic mean, is based on the concept of data stream; A *data stream* is a continuous stream of data which is manipulated and processed to obtain a certain result and the items in the data stream aren't stored in memory, the only thing that will be stored is the computation result and it will be continuously updated until the end of the data stream. We can define the well known concept of arithmetic mean as: $\frac{1}{n}\sum_{i=1}^n a_i$
-the online version of it is slightly different, the main idea is that we already have a computed mean that we'll call *X*, so we just need to multiply X for *N* that is the length of the data stream we used to compute X itself, add the new value $X_n+1$ and then divide everything for N+1: $$\frac{X_n (n) + X_n+1}{n+1}$$
+The *Online* version of the arithmetic mean, is based on the concept of data stream; A *data stream* is a continuous stream of data which is manipulated and processed to obtain a certain result and the items in the data stream aren't stored in memory, the only thing that will be stored is the computation result and it will be continuously updated until the end of the data stream. We can define the well known concept of arithmetic mean as: $$\frac{1}{n}\sum_{i=1}^n a_i$$
+the online version of it is slightly different, the main idea is that we already have a computed mean that we'll call *X*, so we just need to multiply X for *N* that is the length of the data stream we used to compute X itself, add the new value $X_n+1$ and then divide everything for N+1:  
+$$\frac{X_n (n) + X_n+1}{n+1}$$
 
 ---
 
