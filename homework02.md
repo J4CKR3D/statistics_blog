@@ -86,6 +86,8 @@ $$
 As known as *Knuth Formula* or *Running Mean*.  
 The Knuth formula is preferable to the naive one because allows to less memory occupation and eliminates the floating point related errors, the possibility of the data elimination from the batch and is overall faster to compute.
 
+[back to top](#home)
+
 ---
 
 ### Applications / Practice (A)
@@ -98,9 +100,11 @@ I've implemented both the Discrete and Continuous variable in the same program a
 
 ### 6_A.  
 
+[back to top](#home)
+
 ---
 
 ### Researches about applications (RA)
 ### 3_RA.
 
-[back to top](#1510---homework-02)
+[back to top](#home)
