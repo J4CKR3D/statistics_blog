@@ -11,8 +11,7 @@
  - [6_R.](#6_r)
  
 [Applications / Practice (A)](#applications--practice-a)
- - [4_A.](#4_a)
- - [5_A.](#5_a)
+ - [4_A.](#4_a-and-5_a)
  - [6_A.](#6_a)
  
 [Researches about applications (RA)](#researches-about-applications-ra)
@@ -66,7 +65,7 @@ With the terms **Data repository** in a real world or entrprise environment, we 
 
 ### 6_R.  
 
-The *Online* version of the arithmetic mean, is based on the concept of data stream; A *data stream* is a continuous stream of data which is manipulated and processed to obtain a certain result and the items in the data stream aren't stored in memory, the only thing that will be stored is the computation result and it will be continuously updated until the end of the data stream. We can define the well known concept of arithmetic mean as:  
+The *Online* version of the arithmetic mean, is based on the concept of data stream; A *data stream* is a continuous stream of data which is manipulated and processed to obtain a certain result and the items in the data stream aren't stored in memory, the only thing that will be stored is the computation result and it will be continuously updated until the end of the data stream that can be finite or infinite. We can define the well known concept of arithmetic mean as:  
 
 $$
 \frac{1}{n}\sum_{i=1}^n a_i
@@ -90,9 +89,12 @@ The Knuth formula is preferable to the naive one because allows to less memory o
 ---
 
 ### Applications / Practice (A)
-### 4_A.  
 
-### 5_A.  
+### 4_A. and 5_A.
+
+I've implemented both the Discrete and Continuous variable in the same program and in both languages:
+ - [C# program](https://drive.google.com/file/d/1oZwp_P959zDS4hklPWrZJYFh1JIYdG1O/view?usp=sharing)
+ - [VB Program](https://drive.google.com/file/d/1AHA-3vg7iJGNQQejZgW14H0-YvaLFx-W/view?usp=sharing)
 
 ### 6_A.  
 
