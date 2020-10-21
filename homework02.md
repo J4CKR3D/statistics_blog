@@ -11,7 +11,7 @@
  - [6_R.](#6_r)
  
 [Applications / Practice (A)](#applications--practice-a)
- - [4_A.](#4_a-and-5_a)
+ - [4_A.- 5_A.](#4_a-and-5_a)
  - [6_A.](#6_a)
  
 [Researches about applications (RA)](#researches-about-applications-ra)
@@ -95,16 +95,32 @@ The Knuth formula is preferable to the naive one because allows to less memory o
 ### 4_A. and 5_A.
 
 I've implemented both the Discrete and Continuous variable in the same program and in both languages:
- - [C# program](https://drive.google.com/file/d/1oZwp_P959zDS4hklPWrZJYFh1JIYdG1O/view?usp=sharing)
- - [VB Program](https://drive.google.com/file/d/1AHA-3vg7iJGNQQejZgW14H0-YvaLFx-W/view?usp=sharing)
+ - [C# program](https://drive.google.com/file/d/1CvxlvdQH61YgLEa7LMariGX_cKcO9hUS/view?usp=sharing)
+ - [VB Program](https://drive.google.com/file/d/1uK28wVMJzwy66-xaKvoD3bqgr9oH6uIV/view?usp=sharing)
 
 ### 6_A.  
 
+Using a Naive Mean algorithm implementation over, for example, the Kahan one, could lead to several problems which results in an error or a wrong/imprecise result.  
+Talking about programming related problems, we could have:
+ - Buffer overflow,
+ - Data absorption/cancellation
+ - Approximation problems over big numbers
+I've developed a simple [**C# program**](https://drive.google.com/file/d/1zQAqkidPUFRTBRL_DESqp-9sAQMXby-z/view?usp=sharing) that will explain all the problems related to a Naive implementation over the Kahan one.  
+ 
 [back to top](#home)
 
 ---
 
 ### Researches about applications (RA)
 ### 3_RA.
+
+As said at point [6_A](#6_a) the numeric representation in the computer memory could generates an error propagation that leads to the dewscribed errors.  
+ - **Buffer Overflow***: the Buffer Overflow error is strictly related to the numeric representation in memory; An integer value in C# is actually an *int32* if not differently specified; A Double value, uses 64bit by default instead; even Floats uses 32 bits.
+ That means that if we try to write a Double value into a Float variable, this will most certainly lead to an overflow error, especially for large numbers, because the double value excess bits will be written **outside** the memory register allocated for the Float value.
+ To avoid that, it's useful to know what are the lower/higher supported value for the various data types and using them accordingly.
+ - **Data absorption**: It's a common *approximation* error that we can encounter when we sum/subtract two numbers of different magnitude.
+ Let's take for example the sum of $$3.45E+100 + 120$$ will result 3.45E+100. In this case the 120 will appear to be totally ignored because it will be *absorbed* into the higer magnitude of 3.45E+100.
+ - **Data cancellation**: This kind of problem will  happen when we want to subtract relatively big and similiar numbers. As demonstrated in the 6_A program, this error will appear like a bad approximation, and in fact it kind of is, it strictly depends on the data type used.
+ - **Approximation**: With both really long decimals and big numbers, the approximation of the Naive implementation will lead to a loss of data and an obvuois wrong result, as shownin the 6_A program.
 
 [back to top](#home)
