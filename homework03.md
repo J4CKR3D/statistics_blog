@@ -82,12 +82,24 @@ and that explains why the relative joint frequencies are equals to the products 
 [Back Up](#index)
 
 #### 9_R.
+Talking about data visualization/presentation we have almost an infinite number of ways on wich we can present our data in an effective way and there are a tons of charts type out there useful for different reasons or in different occasions, it depends on what we want to focus the data presentation.
+We can start with a rough division of the millions of charts in 4 main charts categories:
 
+ - Comparison charts
+ - Distribution charts
+ - Composition charts
+ - Relationship charts
+ 
+Some of those categories ar more indicated to visualize the variation of the data (distributions) given certain variables, like an histogram or a line chart, other performs better when we need a more graphical way to represent the composition of our data, like pie charts, waterfall charts or polar charts, others are more valuable in terms of raw data visualization (in my opinion) like scatter charts, bubble charts or plotting charts in general, those are intented to be relational type charts, and lastly comparison charts like columns charts, donught charts or radar charts.
+Has to be noted that falling in one of those described charts categories does not means that a certain chart can't appear also in other categories, like line chart for example, it could be used both for data comparison and data distribution; Same for scatter charts, thery're good for data relationship AND data distribution. Picking the right chart is critical when we need an efficient way to present data in a more comprehesive way.  
 
+Even if food related charts are intriguing (guess why...) one of the most beautiful chart i've seen is the polar diagram, it's versatile and can be used almost for everything, even for more simultaneous uses, like data composition and distribution at the same time. It is usually used to see the composition of data on hard drives indeed.
+On the other hand, one of the less useful (in my opinion) is the Word Cloud Chart; It could be useful for designers, but somewhat useless for statistics.
 
  - **Sources**:
     - [Wikipedia](https://en.wikipedia.org/wiki/Marginal_distribution)
     - [Brainkart](http://www.brainkart.com/article/Bivariate-Frequency-Distributions_35069)
+    - [Eazby](https://eazybi.com/blog/data_visualization_and_chart_types)
  
  ---
  
