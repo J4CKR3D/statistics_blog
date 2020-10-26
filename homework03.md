@@ -87,7 +87,11 @@ and that explains why the relative joint frequencies are equals to the products 
  - **Sources**:
     - [Wikipedia](https://en.wikipedia.org/wiki/Marginal_distribution)
     - [Brainkart](http://www.brainkart.com/article/Bivariate-Frequency-Distributions_35069)
-
+ 
+ ---
+ 
 ### Applications / Practice (A)  
+
+---
 
 ### Researches about applications (RA)
