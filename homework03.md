@@ -76,6 +76,7 @@ f_{ij} = f_{i}\cdot f_{j} \Rightarrow
 Freq\left\{ x=x_{i} \wedge y=y_{j}\right\} \Rightarrow 
 Freq\left\{x=x_{i}\right\} \cdot Freq\left\{ y=y_{j}\right\}
 $$
+
 and that explains why the relative joint frequencies are equals to the products of the corresponding marginal frequencies.
 
 [Back Up](#index)
