@@ -6,6 +6,9 @@
 
 ### INDEX
 [Researches about theory (R)](#researches-about-theory-r)
+ - [7_R.](#7_r)
+ - [8_R.](#8_r)
+ - [9_R.](#9_r)
  
 [Applications / Practice (A)](#applications--practice-a)
 
@@ -28,6 +31,8 @@ A pratical example below for the *Marginal* and *Joint* distribution:
 ![Brainkart Example](/images/hw03/7_r.png)
 
 The values in the purple box, are the Marginal distribution value, the orange one are the Joint distribution value, and let's say that we want the marks distribution of the people between 20-22 years, that's where we have our conditonal distribution in a blue box. 
+
+[Back Up](#index)  
 
 #### 8_R.  
 The **statistical independence** is usually referred to variables, we can say that two variables are statistically independent if there is no way that the probability of a certain value in one variable will affect the distribution of the other one, so if there is absolutely no correlation between the distribution and the variable we are considering. Let's take for example the distribution of student's grades divided by gender, we can imagine that there is no correlation (and indeed there shouldn't be) between the grades distribution and the student's genders and indeed the grades distribution remains pretty much similiar at the gender variable changing. The fact that the relative joint frequencies are equal to the products of the corresponding marginal frequencies happens because of the mathematical definition of independence;  
@@ -56,9 +61,11 @@ To rewrite that in terms of frequency, we just need to  divide everything for n:
 
 $$
 \frac{n_{ij}n}{n} = \frac{n_{i.}n_{.j}}{n}
+$$
 
-so
+so, after simplifications:
 
+$$
 \frac{n_{ij}}{n} = \frac{n_{i.}n_{.j}}{n}
 $$
 
@@ -69,7 +76,9 @@ f_{ij} = f_{i}\cdot f_{j} \Rightarrow
 Freq\left\{ x=x_{i} \wedge y=y_{j}\right\} \Rightarrow 
 Freq\left\{x=x_{i}\right\} \cdot Freq\left\{ y=y_{j}\right\}
 $$
+and that explains why the relative joint frequencies are equals to the products of the corresponding marginal frequencies.
 
+[Back Up](#index)
 
 #### 9_R.
 
